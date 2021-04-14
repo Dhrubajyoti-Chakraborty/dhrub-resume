@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+<style>
+
+    /* =============NAVBAR======== */
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        padding: 10px 90px;
+        box-sizing: border-box;
+        background: rgba(0, 0, 0, 0.6);
+        border-bottom: 1px solid white;
+    }
+    nav .logo{
+        padding: 22px 20px;
+        height: 80px;
+        float: left;
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    nav ul{
+        list-style: none;
+        float: right;
+        margin: 0;
+        padding: 0;
+        display: flex; 
+    }
+    nav ul li a{
+        line-height: 80px;
+        color: #fff;
+        padding: 12px 30px;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    nav ul li a:hover{
+        background: rgba(0, 0, 0, 0.7);
+        border-radius: 6px;
+    }
+    section{
+        width: 100%;
+        height: 100vh;
+        background: url(banner.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    section h1{
+    color: black;
+    font-size: 40px;
+}
+section h4{
+    color: white;
+    margin-top: -11px;
+        font-size: 22px;
+    text-decoration: underline;
+}
+
+section p{
+    color: white;
+    margin-top: -10px;
+    font-size: 30px;
+    /* font-weight: bold; */
+}
+
+.header{
+    /* background: black; */
+    height: 649px;
+    /* background: url(unsplash-background.jpg); */
+    /* background-repeat: no-repeat; */
+}
+/* .top{
+    height: 40px;
+    background: black;
+    border-bottom: 1px solid blanchedalmond;
+    
+} */
+
+
+
+.column {
+    padding-top: 165px;
+}
+/* .header h1{
+    color: black;
+}
+.header h4{
+    color: white;
+    margin-top: -11px;
+}
+
+.header p{
+    color: white;
+    margin-top: -10px;
+} */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.column image{
+   width: 25%;
+}
+/* 
+.column.para{
+    width: 75%;
+} */
+/* .header{
+  clear: both;
+} */
+
+.column.para p {
+    width: 656px;
+}
+.column.image {
+    padding-left: 149px;
+    /* padding-top: 48px; */
+    padding-top: 233px;
+}
+.column.para {
+    padding-left: 68px;
+}
+.column {
+    padding-top: 199px;
+}
+.contact{
+    background: tomato;
+    height: 62px;
+}
+.contact .a{
+    float: left;
+  padding: 10px;
+  padding-top: 16px;
+  /* width: 25%; */
+
+}
+.contact .a .mobile {
+  width: 25%;
+}
+.contact .a .envelope {
+  width: 25%;
+}
+
+.contact .a .map {
+  width: 25%;
+}
+.contact .a .github {
+  width: 25%;
+}
+.contact{
+    clear: both;
+    color: white;
+}
+.a p {
+    padding-left: 106px;
+    margin-top: -17px;
+}
+.a i {
+    padding-left: 84px;
+}
+
+.technical{
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.x{
+    float: left;
+    padding-left: 10px;
+}
+
+.x.techskills {
+    padding-left: 120px;
+}
+
+.x.internship {
+    margin-top: -116px;
+}
+.x.prof-exp {
+    padding-left: 120px;
+}
+
+.technical {
+    padding-left: 250px;
+    padding-right: 250px;
+    background: darkgrey;
+    /* width: 1001px; */
+   /* height: 294px;*/
+   height: 100vh;
+    color: white;
+     background: url(technical.jpg);
+     background-size: cover;
+     background-position: center;
+}
+/*
+.aboutme {
+    padding-top: 59px;
+     padding-left: 262px; 
+    padding-bottom: 36px;
+    height: 602px;
+}*/
+.aboutme {
+    padding-top: 88px;
+    padding-left: 314px;
+    padding-bottom: 36px;
+    /*height: 688px;*/
+    font-size: x-large;
+    color: rebeccapurple;
+    height: 100vh;
+    background: url(about.jpg);
+     background-size: cover;
+     background-position: center;
+
+}
+.x.prof-exp p {
+    margin-bottom: -6px;
+}
+.x.internship {
+    margin-top: -116px;
+}
+.y{
+    float: left;
+    padding-left: 110px;
+}
+.y {
+    float: left;
+    padding-left: 110px;
+    color: blue;
+}
+
+.z {
+    padding-top: 214px;
+}
+
+.educational-qualification {
+    /*padding-left: 258px;*/
+    padding-top: 33px;
+          width: 100%;
+    height: 100vh;
+    background: url(education.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.education {
+    padding-left: 381px;
+    padding-top: 200px;
+    font-size: x-large;
+}
+.educational-qualification h2 {
+    /*background: tomato;*/
+    width: 629px;
+    color: white;
+}
+
+.educational-qualification ul {
+    /*background: tomato;*/
+    height: 111px;
+    width: 589px;
+    color: white;
+    padding-top: 29px;
+
+}
+
+.personal-information {
+    /*padding-left: 257px;*/
+    padding-top: 22px;
+          width: 100%;
+    height: 100vh;
+    background: url(personal.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.personal-information h2 {
+    background: #737168;
+    width: 629px;
+    color: white;
+}
+.personal-information ul {
+    background: #737168;
+    height: 151px;
+    width: 589px;
+    color: white;
+    padding-top: 23px;
+}
+.aim q{
+    max-width: 20em;
+    font: 1.8rem/1.4 Georgia, serif;
+}
+.whatsapp {
+    padding-top: 149px;
+    margin-bottom: 181px;
+    margin-top: -67px;
+}
+
+
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+</style>
+</head>
+<body>
+    <nav>
+        <div class="logo">Resume</div>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="#aboutme">About</a></li>
+            <li><a href="#technical">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="">Service</a></li>
+        </ul>
+    </nav>
+
+    <div class="icon-bar">
+          <a href="https://www.facebook.com/dhrubajyoti.chakraborty.77" class="facebook"><i class="fa fa-facebook"></i></a> 
+          <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+          <a href="#" class="google"><i class="fa fa-google"></i></a> 
+          <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+    </div>
+
+    <section>
+        <div class="column image">
+            <img src="IMG_20201020_195459.jpg" alt="" height="150px" width="150px">
+        </div>
+        <div class="column para">
+            <h1>Dhrubajyoti Chakraborty</h1>
+            <h4>Laravel Developer</h4>
+            <p>Six months experienced as Laravel Developer with HTML, CSS, Javascript at FODUU 
+                (Website Design & Developing Company) with the well guidance by seniors.
+                Blog-user-admin panel,CRUD Module for admin-side,building functional relationship,
+                Managing Database in an efficient manner etc were the part of the experience.Although at 
+                basic level but learnt a lot in this work loaded environment.  </p>
+        </div>
+
+    </section>
+
+    <!-- <div class="header">
+        <div class="top">
+            
+        </div>
+        <div class="column image">
+            <img src="IMG_20201020_195459.jpg" alt="" height="150px" width="150px">
+        </div>
+        <div class="column para">
+            <h1>Dhrubajyoti Chakraborty</h1>
+            <h4>Laravel Developer</h4>
+            <p>Six months experienced as Laravel Developer with HTML, CSS, Javascript at FODUU 
+                (Website Design & Developing Company) with the well guidance by seniors.
+                Blog-user-admin panel,CRUD Module for admin-side,building functional relationship,
+                Managing Database in an efficient manner etc were the part of the experience.Although at 
+                basic level but learnt a lot in this work loaded environment.  </p>
+        </div>
+
+    </div> -->
+ 
+    <div class="aboutme" id="aboutme">
+        <!-- <img class="y" src="IMG_20201020_195459.jpg" alt="" height="200px" width="200px"> -->
+        <div class="">
+            <h2>Aim In Life</h2>
+            <!-- <br> -->
+            <q>
+                Strength is life.
+                Weakness is death.
+            </q>
+            <br>
+            <p><b> To achieve success by the mean of Hard-working,
+                <br> Self-confidence and Honesty.</b></p>
+        </div>
+
+        <div class="">
+            <h2>About Me</h2> 
+            <p><b>I'm very calm but effictive person in my worklife. <br>
+            Always like to do something new & desire to learn new <br>
+            that's why I chose coding & programming.  </b>
+            </p> 
+        </div>
+     
+
+
+    </div>
+    <div class="technical" id="technical">
+     <div class=" z">
+    	
+        <div class=" keyskills">
+        <h2>Key Skills</h2>
+            <p>Blog-user-admin panel,CRUD Module for admin-side, <br> building functional relationship, <br>
+                Managing Database in an efficient manner etc</p>
+        </div>
+
+        <div class=" techskills">
+            <h2>Tech Skills</h2>
+            <p>HTML,CSS,Javascript,Core PHP, Laravel</p>
+        </div>
+
+        <div class="prof-exp">
+            <h2>Professional Experience</h2>
+            <p>Six months experienced as Laravel Developer with <br> HTML, CSS, Javascript at FODUU 
+            <br> (Website Design & Developing Company) <br> with the well guidance by seniors.</p>
+       <!--  </div>
+
+        <div class="x internship"> -->
+            <!-- <h2>Internship</h2> -->
+            <p>Internship completed with 1 year <br> experience in HTML,CSS,Javascript,Laravel <br> at Codiotic (Website designing & development company)</p>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="educational-qualification" id="education">
+       <div class="education">
+
+            <h2>Educational Qualification</h2>
+            <ul>
+                <li>MCA Incomplete (4 sem).</li>
+                <li>Bachelor Degree:Passed Examination B.Sc</li>
+                <li>Higher Secondary Degree:Passed Higher Secondary Examination with Science stream</li>
+                <li>Secondary Degree:Passed Secondary Examination</li>
+            </ul>
+        </div>
+
+    <div class="whatsapp">
+        <a href="https://wa.me/917389966071"><img src="WhatsApp-logo.png" alt="" width="130px" height="89px"></a>
+    </div>
+    </div>
+
+<!--     
+    <div class="personal-information">
+        <h2>Personal Information</h2>
+        <ul>
+            <li><span>Nationality :</span>Indian</li>
+            <li><span>Religion :</span>Hindu</li>
+            <li><span>Caste :</span>General</li>
+            <li><span>Marital :</span>Unmarried</li>
+            <li><span>Father’s name :</span>Late Tapan Chakraborty</li>
+            <li><span>D.O.B :</span>20.11.86</li>
+        </ul>
+
+    </div> -->
+
+
+    <div class="contact">
+        <div class="a mobile">
+            <i class="fa fa-phone"></i>
+            <p>+91 7389966071</p>
+        </div>
+       <div class="a envelope">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <p>dhrub2019.4@gmail.com</p>
+       </div>
+       <div class="a map">
+            <i class="fa fa-map-marker "></i>
+            <p> Indore,India</p>  
+       </div>
+       <div class="a github">
+            <i class="fa fa-github"></i>
+            <p>www.github.com/Dhrubajyoti-Chakraborty</p>
+       </div>
+       <!-- <a href=""></a> -->
+    </div>
+
+    
+</body>
+</html>
